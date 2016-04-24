@@ -7,6 +7,7 @@ gem 'rails', '>= 5.0.0.beta3', '< 5.1'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma'
+<<<<<<< HEAD
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,6 +23,10 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5.x'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+=======
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+# gem 'jbuilder', '~> 2.0'
+>>>>>>> 4667f037adc43722fbbc89440dcd860f2a1dd034
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -30,14 +35,23 @@ gem 'jbuilder', '~> 2.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+<<<<<<< HEAD
+=======
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+# gem 'rack-cors'
+
+>>>>>>> 4667f037adc43722fbbc89440dcd860f2a1dd034
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
 
 group :development do
+<<<<<<< HEAD
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 3.0'
+=======
+>>>>>>> 4667f037adc43722fbbc89440dcd860f2a1dd034
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
